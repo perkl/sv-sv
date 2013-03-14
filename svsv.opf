@@ -1,0 +1,31 @@
+<?xml version="1.0"?><!DOCTYPE package SYSTEM "oeb1.ent">
+
+<package unique-identifier="uid" xmlns:dc="Dublin Core">
+
+<metadata>
+	<dc-metadata>
+		<dc:Identifier id="uid">ordordord</dc:Identifier>
+		<!-- Title of the document -->
+		<dc:Title><h2>Svensk-svensk ordlista</h2></dc:Title>
+		<dc:Language>SV</dc:Language>
+	</dc-metadata>
+	<x-metadata>
+		<output encoding="UTF-8" flatten-dynamic-dir="yes"/>
+		<DictionaryInLanguage>SV</DictionaryInLanguage>
+		<DictionaryOutLanguage>SV</DictionaryOutLanguage>
+	</x-metadata>
+</metadata>
+
+<!-- list of all the files needed to produce the .prc file -->
+<manifest>
+ <item id="dictionary0" href="svsv.html" media-type="text/x-oeb1-document"/>
+</manifest>
+
+
+<!-- list of the html files in the correct order  -->
+<spine>
+	<itemref idref="dictionary0"/>
+</spine>
+
+
+</package>
