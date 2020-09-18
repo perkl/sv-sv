@@ -15,7 +15,7 @@ To generate the dictionary as HTML, simply run make with no options in this dire
 
     $ make
 
-The HTML file is referenced in `svsv.opf` so now we can create the MOBI file using Kindle Previewer.
+The created HTML file `svsv.html` is referenced in `svsv.opf` so now we can create the MOBI file using Kindle Previewer.
 
 Install Kindle Previewer, open it and open the `svsv.opf` file in the Previewer.
 
