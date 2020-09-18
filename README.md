@@ -6,7 +6,7 @@ About
 
 Creates a Swedish-Swedish dictionary for Kindle, starting with LEXIN from http://spraakbanken.gu.se/
 
-[Kindle Previewer](https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765261) is needed for converting to MOBI.
+[Kindle Previewer](https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765261) is needed for converting the dictionary to a MOBI file.
 
 Usage
 -----
