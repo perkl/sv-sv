@@ -1,8 +1,5 @@
 
-all: svsv.mobi
-
-svsv.mobi: svsv.html svsv.opf
-	kindlegen svsv.opf
+all: svsv.html
 
 svsv.html: lexin_utf8.xml
 	python transform.py > svsv.html
