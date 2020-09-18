@@ -6,7 +6,7 @@ About
 
 Creates a Swedish-Swedish dictionary for Kindle, starting with LEXIN from http://spraakbanken.gu.se/
 
-Kindle Previewer is needed for converting to MOBI (https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765261)
+[Kindle Previewer](https://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765261) is needed for converting to MOBI.
 
 Usage
 -----
@@ -17,7 +17,7 @@ To generate the dictionary as HTML, simply run make with no options in this dire
 
 The HTML file is referenced in `svsv.opf` so now we can create the MOBI file using Kindle Previewer.
 
-Install Kindle Previewer and open `svsv.opf`.
+Install Kindle Previewer, open it and open the `svsv.opf` file in the Previewer.
 
 Export to MOBI in the menu: `File -> Export` and select MOBI as the file format.
 
