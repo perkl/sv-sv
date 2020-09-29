@@ -18,13 +18,13 @@ for lemma in root.iter('lemma-entry'):
 
     sys.stdout.write("<idx:entry>")
     sys.stdout.write("<idx:orth>")
-    sys.stdout.write(("<b>"+form.text.replace('~','')+"</b> ").encode('utf8'))
+    sys.stdout.write(("<b>"+form.text.replace('~','')+"</b> "))
 
     if(inflection != None and inflection.text != None and len(inflection.text)!=0):
         sys.stdout.write("<idx:infl>")
         for s in inflection.text.split(' '):
             sys.stdout.write("<idx:iform value=\"")
-            sys.stdout.write(s.encode('utf8'))
+            sys.stdout.write(s)
             sys.stdout.write("\" />")
         sys.stdout.write("</idx:infl>")
 
@@ -44,7 +44,7 @@ for lemma in root.iter('lemma-entry'):
         compounds = lexeme.findall('compound')
         
         if(makelist): sys.stdout.write("<li>")
-        if(definition != None):sys.stdout.write(definition.text.encode('utf8'))
+        if(definition != None):sys.stdout.write(definition.text)
         if(makelist): sys.stdout.write("</li>")
          
     if(makelist): sys.stdout.write("</ol>")
